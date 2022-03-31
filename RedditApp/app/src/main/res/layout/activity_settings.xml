@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SettingsActivity">
+
+    <TextView
+        android:id="@+id/langText"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="88dp"
+        android:gravity="center"
+        android:text="@string/language"
+        android:textColor="#DD2C00"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/langGet"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="@string/wait"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/langText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/langText"
+        app:layout_constraintTop_toBottomOf="@+id/langText" />
+
+    <TextView
+        android:id="@+id/nsfwText"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/nsfw"
+        android:textColor="#DD2C00"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/langText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/langText"
+        app:layout_constraintTop_toBottomOf="@+id/langGet" />
+
+    <TextView
+        android:id="@+id/nsfwGet"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="@string/wait"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/langText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/langText"
+        app:layout_constraintTop_toBottomOf="@+id/nsfwText" />
+
+    <TextView
+        android:id="@+id/nightText"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/nightmode"
+        android:textColor="#DD2C00"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/langText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/langText"
+        app:layout_constraintTop_toBottomOf="@+id/nsfwGet" />
+
+    <TextView
+        android:id="@+id/nightGet"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="@string/wait"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/langText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/langText"
+        app:layout_constraintTop_toBottomOf="@+id/nightText" />
+
+    <TextView
+        android:id="@+id/countryText"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/country"
+        android:textColor="#DD2C00"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/langText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/langText"
+        app:layout_constraintTop_toBottomOf="@+id/nightGet" />
+
+    <TextView
+        android:id="@+id/countryGet"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="@string/wait"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/langText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/langText"
+        app:layout_constraintTop_toBottomOf="@+id/countryText" />
+
+    <TextView
+        android:id="@+id/noprofanText"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/noprofan"
+        android:textColor="#DD2C00"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/langText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/langText"
+        app:layout_constraintTop_toBottomOf="@+id/countryGet" />
+
+    <TextView
+        android:id="@+id/noprofanGet"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="@string/wait"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/langText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/langText"
+        app:layout_constraintTop_toBottomOf="@+id/noprofanText" />
+
+    <TextView
+        android:id="@+id/twittershowText"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/showtwitter"
+        android:textColor="#DD2C00"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/langText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/langText"
+        app:layout_constraintTop_toBottomOf="@+id/noprofanGet" />
+
+    <TextView
+        android:id="@+id/twittershowGet"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="@string/wait"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/langText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/langText"
+        app:layout_constraintTop_toBottomOf="@+id/twittershowText" />
+
+    <Button
+        android:id="@+id/buttonModify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/modify"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Kebapp</string>
+    <string name="createAccountStr">Create account</string>
+    <string name="loginButtonStr">Login/Sign up with Reddit</string>
+    <string name="iconReddit">iconReddit</string>
+    <string name="back">Go Back</string>
+    <string name="apply">Apply</string>
+    <string name="applyChange">Changes applied</string>
+    <string name="language">Language</string>
+    <string name="nsfw">NSFW (over 18)</string>
+    <string name="nightmode">Nightmode</string>
+    <string name="country">Country</string>
+    <string name="noprofan">No profanity</string>
+    <string name="showtwitter">Show Twitter</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="fr">FR</string>
+    <string name="en">EN</string>
+    <string name="re">RE</string>
+    <string name="username">Username</string>
+    <string name="karma">Karma</string>
+    <string name="description">Description</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="searchsubreddit">Search Subreddit</string>
+    <string name="submit">Submit</string>
+    <string name="modify">Modify</string>
+    <string name="wait">...</string>
+    <string name="mysub">My Subs</string>
+    <string name="postbutton">Posts</string>
+    <string name="bestbutton">Best</string>
+    <string name="newbutton">New</string>
+    <string name="hotbutton">Hot</string>
+    <string name="searchsomething">Search a subreddit ...</string>
+</resources>

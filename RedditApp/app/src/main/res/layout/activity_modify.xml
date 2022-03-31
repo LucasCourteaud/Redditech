@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ModifyActivity"
+    tools:context=".activity.ModifyActivity">
+
+    <TextView
+        android:id="@+id/twitterTextModify"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:textColor="#DD2C00"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noprofanTextModify"
+        tools:text="@string/showtwitter" />
+
+    <Button
+        android:id="@+id/showtwitterOn"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/on"
+        app:layout_constraintEnd_toEndOf="@+id/twitterTextModify"
+        app:layout_constraintTop_toBottomOf="@+id/twitterTextModify"
+        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/showtwitterOff"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/off"
+        app:layout_constraintStart_toStartOf="@+id/twitterTextModify"
+        app:layout_constraintTop_toBottomOf="@+id/twitterTextModify"
+        tools:ignore="DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/noprofanOff"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/off"
+        app:layout_constraintStart_toStartOf="@+id/noprofanTextModify"
+        app:layout_constraintTop_toBottomOf="@+id/noprofanTextModify"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/noprofanTextModify"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:text="@string/noprofan"
+        android:textColor="#DD2C00"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countryTextModify" />
+
+    <Button
+        android:id="@+id/noprofanOn"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/on"
+        app:layout_constraintEnd_toEndOf="@+id/noprofanTextModify"
+        app:layout_constraintTop_toBottomOf="@+id/noprofanTextModify"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/countryTextModify"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:text="@string/country"
+        android:textColor="#DD2C00"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nightTextModify" />
+
+    <Button
+        android:id="@+id/countryFr"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/fr"
+        app:layout_constraintEnd_toEndOf="@+id/countryTextModify"
+        app:layout_constraintTop_toBottomOf="@+id/countryTextModify"
+        tools:ignore="DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/countryRe"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/re"
+        app:layout_constraintStart_toStartOf="@+id/countryTextModify"
+        app:layout_constraintTop_toBottomOf="@+id/countryTextModify"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/nightTextModify"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:text="@string/nightmode"
+        android:textColor="#DD2C00"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nsfwTextModify" />
+
+    <Button
+        android:id="@+id/nightOff"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/off"
+        app:layout_constraintStart_toStartOf="@+id/nightTextModify"
+        app:layout_constraintTop_toBottomOf="@+id/nightTextModify"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/nightOn"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/on"
+        app:layout_constraintEnd_toEndOf="@+id/nightTextModify"
+        app:layout_constraintTop_toBottomOf="@+id/nightTextModify"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/nsfwTextModify"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:text="@string/nsfw"
+        android:textColor="#DD2C00"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/langTextModify" />
+
+    <Button
+        android:id="@+id/nsfwOn"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/on"
+        app:layout_constraintEnd_toEndOf="@+id/nsfwTextModify"
+        app:layout_constraintTop_toBottomOf="@+id/nsfwTextModify"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/nsfwOff"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/off"
+        app:layout_constraintStart_toStartOf="@+id/nsfwTextModify"
+        app:layout_constraintTop_toBottomOf="@+id/nsfwTextModify"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/langTextModify"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="88dp"
+        android:gravity="center"
+        android:text="@string/language"
+        android:textColor="#DD2C00"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonApply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/apply"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/langEn"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/en"
+        app:layout_constraintEnd_toEndOf="@+id/langTextModify"
+        app:layout_constraintTop_toBottomOf="@+id/langTextModify"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/langFr"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/fr"
+        app:layout_constraintStart_toStartOf="@+id/langTextModify"
+        app:layout_constraintTop_toBottomOf="@+id/langTextModify"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
